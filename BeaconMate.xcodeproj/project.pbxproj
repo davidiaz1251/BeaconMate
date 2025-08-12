@@ -6,14 +6,37 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E94FBE252E4B5C41009E80E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94FBE242E4B5C41009E80E1 /* Assets.xcassets */; };
+		E94FBE2A2E4B5C55009E80E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94FBE292E4B5C55009E80E1 /* ContentView.swift */; };
+		E94FBE872E4B6A29009E80E1 /* BeaconMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94FBE852E4B6A29009E80E1 /* BeaconMateApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E94FBE112E4B59A9009E80E1 /* BeaconMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94FBE242E4B5C41009E80E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E94FBE262E4B5C4B009E80E1 /* BeaconMate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeaconMate.entitlements; sourceTree = "<group>"; };
+		E94FBE292E4B5C55009E80E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E94FBE852E4B6A29009E80E1 /* BeaconMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconMateApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E94FBE6F2E4B682C009E80E1 /* Exceptions for "Preview Content" folder in "BeaconMate" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Preview Assets.xcassets",
+			);
+			target = E94FBE102E4B59A9009E80E1 /* BeaconMate */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E94FBE132E4B59A9009E80E1 /* BeaconMate */ = {
+		E94FBE6A2E4B682C009E80E1 /* Preview Content */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BeaconMate;
+			exceptions = (
+				E94FBE6F2E4B682C009E80E1 /* Exceptions for "Preview Content" folder in "BeaconMate" target */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +55,7 @@
 		E94FBE082E4B59A9009E80E1 = {
 			isa = PBXGroup;
 			children = (
-				E94FBE132E4B59A9009E80E1 /* BeaconMate */,
+				E94FBE5E2E4B6817009E80E1 /* BeaconMate */,
 				E94FBE122E4B59A9009E80E1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +66,146 @@
 				E94FBE112E4B59A9009E80E1 /* BeaconMate.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E94FBE5E2E4B6817009E80E1 /* BeaconMate */ = {
+			isa = PBXGroup;
+			children = (
+				E94FBE862E4B6A29009E80E1 /* App */,
+				E94FBE842E4B6A26009E80E1 /* Core */,
+				E94FBE7D2E4B6A1F009E80E1 /* Features */,
+				E94FBE7C2E4B6A0B009E80E1 /* Shared */,
+				E94FBE762E4B69D5009E80E1 /* Tests */,
+				E94FBE242E4B5C41009E80E1 /* Assets.xcassets */,
+				E94FBE262E4B5C4B009E80E1 /* BeaconMate.entitlements */,
+				E94FBE6A2E4B682C009E80E1 /* Preview Content */,
+				E94FBE292E4B5C55009E80E1 /* ContentView.swift */,
+			);
+			path = BeaconMate;
+			sourceTree = "<group>";
+		};
+		E94FBE762E4B69D5009E80E1 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E94FBE782E4B69F3009E80E1 /* UITests */,
+				E94FBE772E4B69DF009E80E1 /* UnitTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		E94FBE772E4B69DF009E80E1 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		E94FBE782E4B69F3009E80E1 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		E94FBE792E4B6A0B009E80E1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E94FBE7A2E4B6A0B009E80E1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E94FBE7B2E4B6A0B009E80E1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E94FBE7C2E4B6A0B009E80E1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E94FBE792E4B6A0B009E80E1 /* Components */,
+				E94FBE7A2E4B6A0B009E80E1 /* Extensions */,
+				E94FBE7B2E4B6A0B009E80E1 /* Utils */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E94FBE7D2E4B6A1F009E80E1 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E94FBE7E2E4B6A26009E80E1 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		E94FBE7F2E4B6A26009E80E1 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		E94FBE802E4B6A26009E80E1 /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		E94FBE812E4B6A26009E80E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E94FBE822E4B6A26009E80E1 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		E94FBE832E4B6A26009E80E1 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				E94FBE812E4B6A26009E80E1 /* Models */,
+				E94FBE822E4B6A26009E80E1 /* Repositories */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		E94FBE842E4B6A26009E80E1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E94FBE7E2E4B6A26009E80E1 /* Background */,
+				E94FBE7F2E4B6A26009E80E1 /* DesignSystem */,
+				E94FBE802E4B6A26009E80E1 /* Intents */,
+				E94FBE832E4B6A26009E80E1 /* Persistence */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E94FBE862E4B6A29009E80E1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E94FBE852E4B6A29009E80E1 /* BeaconMateApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +222,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				E94FBE132E4B59A9009E80E1 /* BeaconMate */,
 			);
 			name = BeaconMate;
 			packageProductDependencies = (
@@ -109,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94FBE252E4B5C41009E80E1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94FBE872E4B6A29009E80E1 /* BeaconMateApp.swift in Sources */,
+				E94FBE2A2E4B5C55009E80E1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
