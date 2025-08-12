@@ -2,7 +2,7 @@
 //  BeaconMateApp.swift
 //  BeaconMate
 //
-//  Created by Alex Guerrero on 12/8/25.
+//  Created by Luis David Diaz Ramirez on 12/8/25.
 //
 
 import SwiftUI
