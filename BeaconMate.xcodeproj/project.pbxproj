@@ -79,7 +79,6 @@
 				E94FBE242E4B5C41009E80E1 /* Assets.xcassets */,
 				E94FBE262E4B5C4B009E80E1 /* BeaconMate.entitlements */,
 				E94FBE6A2E4B682C009E80E1 /* Preview Content */,
-				E94FBE292E4B5C55009E80E1 /* ContentView.swift */,
 			);
 			path = BeaconMate;
 			sourceTree = "<group>";
@@ -204,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				E94FBE852E4B6A29009E80E1 /* BeaconMateApp.swift */,
+				E94FBE292E4B5C55009E80E1 /* ContentView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
